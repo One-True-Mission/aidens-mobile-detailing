@@ -67,7 +67,7 @@ body::before {
   background-size: cover;
   background-position: center;
   background-color: var(--bg-fallback);
-  filter: brightness(0.4) saturate(1.05);
+  filter: brightness(0.7) saturate(1.05);
   z-index: -2;
 }
 body::after {
