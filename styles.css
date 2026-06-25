@@ -187,7 +187,7 @@ section { padding: 90px 0; position: relative; }
 
 /* ---------- PAGE HERO ---------- */
 .page-hero { position: relative; display: flex; align-items: center; text-align: center; min-height: 48vh; padding: 150px 0 80px; background-color: #06080b; background-size: cover; background-position: center; border-bottom: 3px solid var(--accent); overflow: hidden; }
-.page-hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(4, 6, 9, 0.84) 0%, rgba(4, 6, 9, 0.68) 100%); }
+.page-hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(4, 6, 9, 0.76) 0%, rgba(4, 6, 9, 0.61) 100%); }
 .page-hero .inner { position: relative; max-width: 840px; }
 .page-hero .eyebrow { justify-content: center; }
 .page-hero h1 { color: #fff; margin-bottom: 18px; }
@@ -276,8 +276,7 @@ section { padding: 90px 0; position: relative; }
 /* ============================================================
    CTA STRIP
    ============================================================ */
-.cta { position: relative; overflow: hidden; text-align: center; color: #fff; background-color: #06080b; background-image: url('assets/cta-bg.jpg'); background-size: cover; background-position: center; }
-.cta::before { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(5, 8, 12, 0.84), rgba(5, 8, 12, 0.9)); }
+.cta { position: relative; overflow: hidden; backdrop-filter: none; text-align: center; color: #fff; background-color: #06080b; background-image: linear-gradient(180deg, rgba(5, 8, 12, 0.58), rgba(5, 8, 12, 0.62)), url('assets/cta-bg.jpg'); background-size: cover; background-position: center; }
 .cta > * { position: relative; }
 .cta h2 { color: #fff; font-size: clamp(1.9rem, 3.2vw, 2.7rem); margin-bottom: 16px; }
 .cta p { color: #cdd9e2; max-width: 650px; margin: 0 auto 28px; }
